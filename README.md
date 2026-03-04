@@ -58,37 +58,36 @@ The system also includes a \*\*Streamlit web interface\*\* that allows users to:
 
 User Input
 
-&#x20;  │
+ │
 
-&#x20;  ├── Prompt → AI Video Generator
+ ├── Prompt → AI Video Generator
+  │
 
-&#x20;  │
+ └── Upload Video
 
-&#x20;  └── Upload Video
+          │
 
-&#x20;          │
+        ▼
 
-&#x20;          ▼
+ Frame Extraction
 
-&#x20;  Frame Extraction
+        │
 
-&#x20;          │
+       ▼
 
-&#x20;          ▼
+  Deepfake Detection Model
 
-&#x20;  Deepfake Detection Model
+         │
 
-&#x20;          │
+       ▼
 
-&#x20;          ▼
+  Provenance Verification
 
-&#x20;  Provenance Verification
+         │
 
-&#x20;          │
+        ▼
 
-&#x20;          ▼
-
-&#x20;  Result Display (Streamlit UI)
+ Result Display (Streamlit UI)
 
 ```
 
